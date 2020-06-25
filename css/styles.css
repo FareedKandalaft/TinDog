@@ -40,3 +40,12 @@ h1 {
 }
 
 
+/*FEATURES */
+
+.features-icon {
+    color: #ef8172
+}
+
+.features-icon:hover {
+    color: #ff4c68;
+}
