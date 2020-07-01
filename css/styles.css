@@ -3,6 +3,13 @@ body {
     font-family: Montserrat;
 }
 
+.bg-peach {
+    background: #ef8172;
+}
+
+.bg-main {
+    background: #ff4c68;
+}
 
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -11,9 +18,11 @@ h1 {
     line-height: 1.5;
 }
 
+/*
 .container-fluid {
     padding: 3% 15%
 }
+*/
 
 #title {
     background-color: #ff4c68;
@@ -48,4 +57,29 @@ h1 {
 
 .features-icon:hover {
     color: #ff4c68;
+}
+
+#features h3 {
+    font-family: Montserrat;
+    font-weight: 800
+}
+
+
+/*TESTIMONIALS*/
+
+#testimonials {
+    background: #ef8172;
+    color: white;
+}
+
+#testimonials h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.press-logo {
+    width: 15%;
+
 }
