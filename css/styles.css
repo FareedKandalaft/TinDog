@@ -33,9 +33,14 @@ h1 {
     margin: 0 15%;
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 /*NAV BAR*/
+
+.nav-bar {
+    position: fixed;
+}
 
 .navbar-brand {
     font-family: Ubuntu;
@@ -57,6 +62,12 @@ h1 {
 
 .features-icon:hover {
     color: #ff4c68;
+}
+
+#features {
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 #features h3 {
@@ -99,4 +110,15 @@ h1 {
 #pricing h3 {
     font-family: Montserrat;
     font-weight: 800
+}
+
+
+/*CALL TO ACTION*/
+
+#cta h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
 }
